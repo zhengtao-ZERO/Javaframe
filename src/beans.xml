@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="2017" class="com.ioc.example.A"></bean>
+	<bean id="2018" class="com.ioc.example.B">
+		<property name="a" ref="com.ioc.example.A"></property>
+	</bean>
+	<bean id="2019" class="com.ioc.example.C">
+		<property name="cStr" value="Hello,World"></property>
+	</bean>
+</beans>
